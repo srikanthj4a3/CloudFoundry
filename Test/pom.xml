@@ -5,6 +5,12 @@
 	<artifactId>Test</artifactId>
 	<version>0.0.3-RELEASE</version>
 	<packaging>war</packaging>
+	<distributionManagement>
+    <repository>
+      <id>Test</id>
+      <url>http://localhost:8090/repository/Test/</url>
+    </repository>
+  </distributionManagement>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
